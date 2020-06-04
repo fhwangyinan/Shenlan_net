@@ -3,35 +3,15 @@
 #### 介绍
 深澜校园网一键登录保活,基于Go语言
 
-#### 软件架构
-软件架构说明
+基于https://github.com/Debuffxb/srun-go
+添加了监测网络状态保活功能（其实就是Ping百度了）
+##保活需要保持运行
+user.txt里面写学号和密码
+> * 学号@运营商 用电信的同学运营商处填chinanet，移动的同学运营商处填cmcc
+> * 密码 默认身份证后七位的前六位或者自己修改的
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+例如学号为201701010101，密码为201701，电信运营商，则文件内容
+```
+201701010101@chinanet
+201701
+```
